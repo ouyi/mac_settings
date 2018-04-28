@@ -5,12 +5,18 @@ alias vim='vim -p'
 export PATH="~/bin:$PATH"
 
 # Must have
+export CLICOLOR=1
+shopt -s histappend # When the shell exits, append to the history file instead of overwriting it
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND" # After each command, save and reload history
 export HISTFILESIZE=50000
 export HISTSIZE=50000
 export HISTCONTROL=ignoreboth # export HISTCONTROL=ignoredups:erasedups
-export CLICOLOR=1
-if [ -f /usr/local/share/bash-completion/bash_completion ]; then
-    . /usr/local/share/bash-completion/bash_completion
+
+if [ -f $(brew --prefix)/share/bash-completion/bash_completion ]; then
+    . $(brew --prefix)/share/bash-completion/bash_completion
+fi
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
 fi
 
 # Required by mosh
