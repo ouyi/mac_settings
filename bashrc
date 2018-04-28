@@ -9,8 +9,8 @@ export HISTFILESIZE=50000
 export HISTSIZE=50000
 export HISTCONTROL=ignoreboth # export HISTCONTROL=ignoredups:erasedups
 export CLICOLOR=1
-if [ -f $(/usr/local/bin/brew --prefix)/etc/bash_completion ]; then
-  . $(/usr/local/bin/brew --prefix)/etc/bash_completion
+if [ -f /usr/local/share/bash-completion/bash_completion ]; then
+    . /usr/local/share/bash-completion/bash_completion
 fi
 
 # Required by mosh

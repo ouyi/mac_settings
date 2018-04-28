@@ -1,7 +1,6 @@
-# brew leaves
+# brew leaves > brew_leaves
 ansible
-bash
-bash-completion
+bash-completion@2
 docker-machine-driver-xhyve
 git
 jq
