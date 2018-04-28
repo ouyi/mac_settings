@@ -2,6 +2,8 @@
 
 set -e
 
+cd settings
+
 for f in bash_profile bashrc gitconfig vimrc; do
     cp ~/.$f $f
 done
