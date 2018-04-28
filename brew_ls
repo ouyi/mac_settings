@@ -1,0 +1,26 @@
+# for i in $(brew ls); do echo $i; done >> brew_ls
+ansible
+bash
+bash-completion
+docker-machine
+docker-machine-driver-xhyve
+gdbm
+git
+jq
+kubernetes-cli
+libev
+libevent
+libyaml
+mobile-shell
+mosh
+oniguruma
+openssl
+packer
+pdsh
+protobuf
+python
+readline
+socat
+sqlite
+tmux
+tree
