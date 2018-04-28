@@ -1,0 +1,13 @@
+ansible
+bash
+bash-completion
+docker-machine-driver-xhyve
+git
+jq
+kubernetes-cli
+mosh
+packer
+pdsh
+socat
+tmux
+tree
