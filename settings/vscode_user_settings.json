@@ -1,0 +1,5 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "terminal.integrated.shell.osx": "/usr/local/bin/bash"
+}
