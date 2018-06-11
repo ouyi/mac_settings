@@ -4,6 +4,7 @@ bash-completion@2
 docker-completion
 docker-machine-driver-xhyve
 git
+gradle
 jq
 kubernetes-cli
 mosh

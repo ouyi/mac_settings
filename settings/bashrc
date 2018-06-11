@@ -2,12 +2,14 @@
 # Personal favorites
 alias ll='ls -lhF'
 alias vim='vim -p'
-export PATH="~/bin:$PATH"
+export VSCODE_PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH="~/bin:$VSCODE_PATH:$PATH"
 
 # Must have
 export CLICOLOR=1
 shopt -s histappend # When the shell exits, append to the history file instead of overwriting it
-export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND" # After each command, save and reload history
+#export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND" # After each command, save and reload history
+export PROMPT_COMMAND="echo -ne '\033]0;${USER}@${HOSTNAME}\007';$PROMPT_COMMAND" # https://apple.stackexchange.com/a/88540
 export HISTFILESIZE=50000
 export HISTSIZE=50000
 export HISTCONTROL=ignoreboth # export HISTCONTROL=ignoredups:erasedups
