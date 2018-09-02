@@ -1,9 +1,10 @@
 # brew leaves > brew_leaves
 ansible
 bash-completion@2
-docker-completion
+coreutils
 docker-machine-driver-xhyve
 git
+gnupg
 gradle
 jq
 kubernetes-cli
@@ -11,6 +12,9 @@ maven
 mosh
 packer
 pdsh
+pstree
+python
 socat
 tmux
 tree
+wget
