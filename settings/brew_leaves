@@ -1,5 +1,6 @@
 # brew leaves > brew_leaves
 ansible
+ascii
 bash-completion@2
 coreutils
 docker-machine-driver-xhyve
@@ -15,6 +16,7 @@ pdsh
 pstree
 python
 socat
+telnet
 tmux
 tree
 wget
