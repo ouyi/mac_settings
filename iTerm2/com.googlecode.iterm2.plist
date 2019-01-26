@@ -1537,15 +1537,15 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 363 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>269 207 606 456 0 0 1440 877 </string>
+	<string>-1930 836 606 469 -2560 355 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 231 796 473 0 0 1440 877 </string>
+	<string>269 203 796 486 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 87 1290 787 0 0 1440 877 </string>
+	<string>0 23 1440 854 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>-2542 875 1305 787 -2560 355 2560 1417 </string>
+	<string>0 90 1305 787 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>1441 1016 1145 707 1440 182 1200 1577 </string>
+	<string>-2534 553 2401 1177 -2560 355 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>1541 318 1145 707 1440 121 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
@@ -2377,7 +2377,7 @@
 			<key>Custom Command</key>
 			<string>Yes</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Recycle</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -2802,6 +2802,8 @@
 	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
 	<integer>0</integer>
+	<key>NoSyncHaveRequestedFullDiskAccess</key>
+	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>1C28E0DE-FD4A-44CC-A830-55A137A11EA0</string>
 	<key>NoSyncLastTipTime</key>
@@ -2895,7 +2897,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-07-14T17:53:24Z</date>
+	<date>2019-01-25T08:45:09Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>TabStyle</key>
@@ -2915,7 +2917,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.7</string>
+	<string>3.2.6</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
